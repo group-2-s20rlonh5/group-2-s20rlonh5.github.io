@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.latest-resources {
+    background-color: #F2EDEB;
+    padding: 20px;
+    margin: 0px;
+    border: 0px; 
+}
+
+nav {
+    background-color: #F2EDEB;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+ul { 
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+     list-style-type: none;
+     margin: 0px;
+     padding: 20px;
+     display: inline;
+}
+
+.header-box {
+    background-color: #BD93BD;
+    padding: 20px;
+    margin: 0px;
+    border: 0px;
+}
+
+.header-para {
+    width: 500px;
+    margin: 0px;
+}
+
+h1 {
+    padding: 10px;
+}
+
+h2 {
+    padding: 10px;
+}
+
+.footer {
+    background-color: #BD93BD;
+    padding: 20px;
+    margin: 0px;
+    border: 0px; 
+}
+
+.activity-generator {
+    background-color: #925e78;
+    padding: 20px;
+    margin: 0px;
+    border: 0px; 
+}
+
+.learn-more {
+    display: flex;
+    justify-content: flex-end;
+}
