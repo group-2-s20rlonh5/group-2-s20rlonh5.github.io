@@ -6087,25 +6087,6 @@ a.close.disabled {
   padding: 1rem;
 }
 
-.modal-footer {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  padding: 0.75rem;
-  border-top: 1px solid #dee2e6;
-  border-bottom-right-radius: calc(0.3rem - 1px);
-  border-bottom-left-radius: calc(0.3rem - 1px);
-}
-
-.modal-footer > * {
-  margin: 0.25rem;
-}
-
 .modal-scrollbar-measure {
   position: absolute;
   top: -9999px;
@@ -10232,7 +10213,20 @@ footer p {
   margin-bottom: .25rem;
 }
 
-
+/* footer */
+footer{
+  padding:10px;
+  background-color: #F2EDEB;
+}
+footer img{
+  width: 80px;
+}
+footer p{
+  color: #b3aeb5;
+  font-size:12px;
+  margin: 0;
+  padding:5px;
+}
 @media print {
   *,
   *::before,
