@@ -4258,22 +4258,6 @@ nav{
   padding: 20px;
 }
 
-
-.nav {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-}
-
-.nav-link {
-  display: block;
-  padding: 0.5rem 1rem;
-}
-
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
 }
