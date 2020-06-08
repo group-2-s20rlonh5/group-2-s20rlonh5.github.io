@@ -4234,8 +4234,6 @@ input[type="button"].btn-block {
   display: block;
 }
 
-
-
 .card {
   position: relative;
   display: -ms-flexbox;
@@ -5609,6 +5607,38 @@ a.close.disabled {
   .modal-sm {
     max-width: 300px;
   }
+}
+
+/* nav */
+nav{
+  height: 80px;
+  margin: 0;
+}
+.navbar-light 
+.navbar-nav 
+.nav-link.active{
+  color:#935F79;
+}
+.navbar-light 
+.navbar-nav 
+.nav-link{
+  color:#BD93BD;
+}
+.navbar-light 
+.navbar-nav 
+.active >.nav-link{
+  color: #935F79;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color:#935F79;
+}
+.navbar-light .navbar-nav .nav-link:focus{
+  color: #935F79;
+}
+.navbar-expand-lg 
+.navbar-nav 
+.nav-link{
+  padding: 20px;
 }
 
 @media (min-width: 992px) {
