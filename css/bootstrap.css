@@ -5246,7 +5246,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #e9ecef;
+  background-color: #BD93BD;
   border-radius: 0.3rem;
 }
 
@@ -10206,41 +10206,6 @@ footer p{
   margin: 0;
   padding:5px;
 }
-
-.jumbotron {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  margin-bottom: 0;
-  background-color: #BD93BD;
-}
-@media (min-width: 768px) {
-  .jumbotron {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-  }
-}
-
-.jumbotron p:last-child {
-  margin-bottom: 0;
-}
-
-.jumbotron h1 {
-  font-weight: 300;
-}
-
-.jumbotron .container {
-  max-width: 40rem;
-}
-
-footer {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-footer p {
-  margin-bottom: .25rem;
-}
-
 
 @media print {
   *,
