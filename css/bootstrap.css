@@ -46,6 +46,21 @@ article, aside, figcaption, figure, footer, header, hgroup, main, section {
   display: block;
 }
 
+/* footer */
+footer{
+  padding:10px;
+  background-color: #F2EDEB;
+}
+footer img{
+  width: 80px;
+}
+footer p{
+  color: #b3aeb5;
+  font-size:12px;
+  margin: 0;
+  padding:5px;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
