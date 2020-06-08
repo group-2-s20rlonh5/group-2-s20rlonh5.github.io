@@ -1,0 +1,204 @@
+/* global */
+body,html{
+  font-family: "Lucida Grande"; 
+  margin: 0;
+  padding: 0;
+  
+}
+
+.heading{
+  padding-top:60px;
+  padding-bottom:30px;
+  color:#5f5d60;
+}
+
+
+/* nav */
+nav{
+  height: 80px;
+  margin: 0;
+}
+
+
+.navbar-light 
+.navbar-nav 
+.nav-link.active{
+  color:#935F79;
+}
+
+.navbar-light 
+.navbar-nav 
+.nav-link{
+  color:#BD93BD;
+}
+
+.navbar-light 
+.navbar-nav 
+.active >.nav-link{
+  color: #935F79;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color:#935F79;
+}
+
+.navbar-light .navbar-nav .nav-link:focus{
+  color: #935F79;
+}
+
+.navbar-expand-lg 
+.navbar-nav 
+.nav-link{
+  padding: 20px;
+}
+
+
+/* jumbo */
+.my-jumbo{ 
+  background-color: #F3EEEC;
+  padding: 60px 45px 15px 45px;
+
+}
+
+.my-jumbo img{
+  padding-left: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  
+  
+}
+
+.my-jumbo-text{
+  align-self: center;
+  text-align: center;
+}
+
+.my-jumbo-text h1{
+  color: black;
+  opacity: 0.7;
+  font-size: 3.5vw;
+  letter-spacing:5px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.dot-1{
+  color:#fec601;
+  
+}
+
+.dot-2{
+  color: #F05365;
+ 
+}
+
+.my-jumbo-text p{
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+.subscribe{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+    height: 45px;
+    width: 300px;
+    border:1px solid #fec601;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+
+.btn-subscribe{
+  background-color: #F05365;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.btn-subscribe:hover{
+  text-decoration: none;
+  color: white;
+  background-color: #af3946;
+
+}
+
+/* resources */
+
+.latest-resources {
+  padding: 30px;
+  text-align: center;
+  background-color: #fbfbfb;
+}
+
+.latest-resources h2{
+  margin-bottom: 40px;
+}
+
+.learn-more {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.learn-more a{
+  color: #935F79;
+}
+
+
+
+/* message */
+
+.message{
+  padding-top: 50px;
+  padding-bottom:100px;
+  text-align:center;
+}
+
+.my-button{
+  padding:12px 24px;
+  color:white;
+  opacity:0.8;
+  border-radius:4px;
+  background-color: #F05365;
+  padding:15px 40px;
+  cursor: pointer;
+  box-shadow: 0 7px #f2374a;
+}
+
+.message a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.my-button:active{
+  box-shadow:none;
+  position:relative;
+  top:7px;
+}
+
+
+/* footer */
+
+footer{
+  padding:10px;
+  background-color: #F2EDEB;
+}
+
+footer img{
+  width: 80px;
+}
+
+footer p{
+  color: #b3aeb5;
+  font-size:12px;
+  margin: 0;
+  padding:5px;
+}
+
