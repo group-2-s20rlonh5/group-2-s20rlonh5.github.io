@@ -1,11 +1,13 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: inherit;
+    color: #925e78;
     margin: 0px;
     padding: 0px;
 }
 
 .latest-resources {
     background-color: #F2EDEB;
+    color: #925e78;
     padding: 20px;
     margin: 0px;
     border: 0px; 
@@ -13,29 +15,39 @@ body {
 
 nav {
     background-color: #F2EDEB;
+    color: #925e78;
     margin: 0px;
     padding: 0px;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
 }
 
 ul { 
     list-style-type: none;
+    color: #925e78;
     margin: 0px;
     padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 li {
      list-style-type: none;
+     color: #925e78;
      margin: 0px;
-     padding: 20px;
+     padding: 0px;
      display: inline;
+     display: flex;
+     justify-content: center;
+     align-items: center;
 }
 
 .header-box {
     background-color: #BD93BD;
-    padding: 20px;
+    color: #925e78;
+    padding: 100px;
     margin: 0px;
     border: 0px;
 }
@@ -43,6 +55,7 @@ li {
 .header-para {
     width: 500px;
     margin: 0px;
+    color: #925e78;
 }
 
 h1 {
@@ -53,16 +66,17 @@ h2 {
     padding: 10px;
 }
 
-.footer {
-    background-color: #BD93BD;
+footer {
+    background-color: #F2EDEB;
     padding: 20px;
     margin: 0px;
     border: 0px; 
 }
 
 .activity-generator {
-    background-color: #925e78;
-    padding: 20px;
+    background-color: #BD93BD;
+    color: #925e78;
+    padding: 50px;
     margin: 0px;
     border: 0px; 
 }
