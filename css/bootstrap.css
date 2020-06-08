@@ -10232,6 +10232,20 @@ footer p {
   margin-bottom: .25rem;
 }
 
+footer{
+  padding:10px;
+  background-color: #F2EDEB;
+}
+footer img{
+  width: 80px;
+}
+footer p{
+  color: #b3aeb5;
+  font-size:12px;
+  margin: 0;
+  padding:5px;
+}
+
 @media print {
   *,
   *::before,
