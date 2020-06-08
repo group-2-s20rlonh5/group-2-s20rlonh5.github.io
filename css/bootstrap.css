@@ -4293,7 +4293,7 @@ input[type="button"].btn-block {
 }
 
 .nav-link.disabled {
-  color: #f2edeb;
+  color: #BD93BD;
   pointer-events: none;
   cursor: default;
 }
@@ -4325,8 +4325,8 @@ padding-top: 15px;
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #f2edeb;
-  border-color: #f2edeb #f2edeb #f2edeb;
+  background-color: #BD93BD;
+  border-color: #bd93bd;
 }
 
 .nav-tabs .dropdown-menu {
