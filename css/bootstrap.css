@@ -1,4 +1,10 @@
-:root {
+/*!
+ * Bootstrap v4.5.0 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -42,7 +48,7 @@ html {
   -webkit-tap-highlight-color: #f2edeb(0, 0, 0, 0);
 }
 
-article, aside, figcaption, figure, footer, header, hgroup, main, , section {
+article, aside, figcaption, figure, footer, header, hgroup, main, section {
   display: block;
 }
 
@@ -1866,7 +1872,7 @@ pre code {
 }
 
 .table-hover .table-danger:hover {
-  background-color: ##f2edeb;
+  background-color: #f2edeb;
 }
 
 .table-hover .table-danger:hover > td,
@@ -1884,7 +1890,7 @@ pre code {
 .table-light td,
 .table-light thead th,
 .table-light tbody + tbody {
-  border-color: ##f2edeb;
+  border-color: #f2edeb;
 }
 
 .table-hover .table-light:hover {
@@ -2037,7 +2043,7 @@ pre code {
   font-weight: 400;
   line-height: 1.5;
   color: #925e78;
-  background-color: ##f2edeb;
+  background-color: #f2edeb;
   background-clip: padding-box;
   border: 1px solid #f2edeb;
   border-radius: 0.25rem;
@@ -2586,7 +2592,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
-  color: #f2edeb
+  color: #f2edeb;
   background-color: #af3946;
   border-color: #af3946;
 }
@@ -4262,7 +4268,7 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs {
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid #f2edeb;
 }
 
 .nav-item {
@@ -4276,13 +4282,13 @@ padding-top: 15px;
 }
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-  border-color: #e9ecef #e9ecef #dee2e6;
+  border-color: #f2edeb #f2edeb #f2edeb;
 }
 
 .nav-tabs .nav-link.disabled {
   color: #f2edeb;
-  background-color: transparent;
-  border-color: transparent;
+  background-color: #f2edeb;
+  border-color: #f2edeb;
 }
 
 .nav-tabs .nav-link.active,
@@ -4304,8 +4310,8 @@ padding-top: 15px;
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #007bff;
+  color: #f2edeb;
+  background-color: #f2edeb;
 }
 
 .nav-fill .nav-item {
@@ -4408,7 +4414,7 @@ padding-top: 15px;
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
-  background-color: transparent;
+  background-color: #f2edeb;
   border: 1px solid transparent;
   border-radius: 0.25rem;
 }
@@ -4688,30 +4694,30 @@ padding-top: 15px;
 }
 
 .navbar-dark .navbar-brand {
-  color: #fff;
+  color: #f2edeb;
 }
 
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: #fff;
+  color: #f2edeb;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #f2edeb(255, 255, 255, 0.5);
+  color: #f2edeb;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color: #f2edeb(255, 255, 255, 0.75);
+  color: #f2edeb;
 }
 
 .navbar-dark .navbar-nav .nav-link.disabled {
-  color: #f2edeb (255, 255, 255, 0.25);
+  color: #f2edeb;
 }
 
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
+  color: #f2edeb;
 }
 
 .navbar-dark .navbar-toggler {
@@ -4724,15 +4730,15 @@ padding-top: 15px;
 }
 
 .navbar-dark .navbar-text {
-  color: rgba(255, 255, 255, 0.5);
+  color: #BD93BD;
 }
 
 .navbar-dark .navbar-text a {
-  color: #fff;
+  color: #f2edeb;
 }
 
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
-  color: #fff;
+  color: #f2edeb;
 }
 
 .card {
@@ -4743,7 +4749,7 @@ padding-top: 15px;
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #f2edeb;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -10021,6 +10027,12 @@ button.bg-dark:focus {
   }
 }
 
+.logo {
+  width: 940px;
+  height: 55px;
+padding-right: 715px;
+}
+
 @media (min-width: 992px) {
   .text-lg-left {
     text-align: left !important;
@@ -10196,40 +10208,6 @@ a.text-dark:hover, a.text-dark:focus {
 .responsive {
   width: 100%;
   height: auto;
-}
-
-.jumbotron {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  margin-bottom: 0;
-  background-color: #BD93BD;
-}
-@media (min-width: 768px) {
-  .jumbotron {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-  }
-}
-
-.jumbotron p:last-child {
-  margin-bottom: 0;
-}
-
-.jumbotron h1 {
-  font-weight: 300;
-}
-
-.jumbotron .container {
-  max-width: 40rem;
-}
-
-footer {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-footer p {
-  margin-bottom: .25rem;
 }
 
 @media print {
