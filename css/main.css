@@ -1,41 +1,38 @@
+  /* body */
+
 body {
     font-family: 'Lucida Grande';
-    color: #925e78;
+    color: #494847;
     margin: 0px;
     padding: 0px;
 }
-
-.latest-resources {
-    background-color: #F2EDEB;
-    color: #925e78;
-    padding: 20px;
-    margin: 0px;
-    border: 0px; 
+h1 {
+    padding: 10px;
 }
+h2 {
+    padding: 10px;
+}
+
+  /* navbar */
 
 nav {
     background-color: #F2EDEB;
-    color: #925e78;
     margin: 0px;
     padding: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 ul { 
     list-style-type: none;
-    color: #925e78;
     margin: 0px;
     padding: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 li {
      list-style-type: none;
-     color: #925e78;
      margin: 0px;
      padding: 0px;
      display: inline;
@@ -43,28 +40,80 @@ li {
      justify-content: center;
      align-items: center;
 }
+nav{
+    height: 80px;
+    margin: 0;
+  }
+  .navbar-light 
+  .navbar-nav 
+  .nav-link.active{
+    color:#935F79;
+  }
+  .navbar-light 
+  .navbar-nav 
+  .nav-link{
+    color:#BD93BD;
+  } 
+  .navbar-light 
+  .navbar-nav 
+  .active >.nav-link{
+    color: #935F79;
+  }
+  .navbar-light .navbar-nav .nav-link:hover{
+    color:#935F79;
+  }
+  .navbar-light .navbar-nav .nav-link:focus{
+    color: #935F79;
+  }
+  .navbar-expand-lg 
+  .navbar-nav 
+  .nav-link{
+    padding: 20px;
+  }
+
+
+  /* Jumbotron */
 
 .header-box {
-    background-color: #BD93BD;
-    color: #925e78;
-    padding: 100px;
+    background-color: #F3EEEC;
+    padding: 50px;
     margin: 0px;
     border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 .header-para {
     width: 500px;
     margin: 0px;
-    color: #925e78;
 }
 
-h1 {
-    padding: 10px;
+
+  /* Resources */
+
+.latest-resources {
+    background-color: #FBFBFB;
+    padding: 20px;
+    margin: 0px;
+    border: 0px; 
 }
 
-h2 {
-    padding: 10px;
+.learn-more {
+    display: flex;
+    justify-content: flex-end;
 }
+
+  /* Activity Generator */
+
+.activity-generator {
+    background-color: #FFFFFF;
+    padding: 50px;
+    margin: 0px;
+    border: 0px; 
+}
+
+
+  /* Footer */
 
 footer {
     background-color: #F2EDEB;
@@ -73,18 +122,8 @@ footer {
     border: 0px; 
 }
 
-.activity-generator {
-    background-color: #BD93BD;
-    color: #925e78;
-    padding: 50px;
-    margin: 0px;
-    border: 0px; 
-}
 
-.learn-more {
-    display: flex;
-    justify-content: flex-end;
-} 
+  /* Other */
 
 .btn-primary {
     color: #F2EDEB;
@@ -108,41 +147,12 @@ footer {
     border-color: #AF3946;
   }
 
-  /* nav */
-nav{
-    height: 80px;
-    margin: 0;
-  }
-  
-  
-  .navbar-light 
-  .navbar-nav 
-  .nav-link.active{
-    color:#935F79;
-  }
-  
-  .navbar-light 
-  .navbar-nav 
-  .nav-link{
-    color:#BD93BD;
-  }
-  
-  .navbar-light 
-  .navbar-nav 
-  .active >.nav-link{
-    color: #935F79;
-  }
-  
-  .navbar-light .navbar-nav .nav-link:hover{
-    color:#935F79;
-  }
-  
-  .navbar-light .navbar-nav .nav-link:focus{
-    color: #935F79;
-  }
-  
-  .navbar-expand-lg 
-  .navbar-nav 
-  .nav-link{
-    padding: 20px;
-  }
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 15px;
+    width: 300px;
+}
