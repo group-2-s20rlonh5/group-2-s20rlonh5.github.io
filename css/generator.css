@@ -77,16 +77,23 @@ nav li a{
   color:#5f5d60;
 } 
 
+@media(max-width = ""){
+
+}
+
+
+
 .my-button{
-  padding:12px 24px;
   color:white;
   opacity:0.8;
   border-radius:4px;
   background-color: #F05365;
-  padding:15px 40px;
-  box-shadow: 0 7px #f2374a;
-  width: 4vw;
- 
+  padding:2vh 5vw;
+  font-size: 2vw;
+  box-shadow: 0 1vh #f2374a;
+  display: inline-block;
+  margin-bottom: 1px;
+  
 }
 
 .intro a:hover{
