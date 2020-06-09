@@ -85,6 +85,7 @@ nav li a{
   padding:15px 40px;
   cursor: pointer;
   box-shadow: 0 7px #f2374a;
+  width: 4vw;
 }
 
 .intro a:hover{
