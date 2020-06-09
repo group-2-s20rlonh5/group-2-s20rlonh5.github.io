@@ -103,6 +103,12 @@ abbr[data-original-title] {
   text-decoration-skip-ink: none;
 }
 
+.logo {
+  padding-right: 938px;
+  max-width:100%;
+  height:auto;
+}
+
 address {
   margin-bottom: 1rem;
   font-style: normal;
