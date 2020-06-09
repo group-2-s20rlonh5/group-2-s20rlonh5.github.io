@@ -166,3 +166,51 @@ color: #f2edeb;
 .nav-link{
   padding: 20px;
 }
+
+.btn-outline-secondary {
+color: #f05365;
+border-color: #f05365;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #f05365;
+  border-color: #f05365;
+  color: #ffffff;
+}
+
+.my-jumbo{ 
+  background-color: #F2edeb;
+  padding: 60px 45px 15px 45px;
+}
+
+.my-jumbo img{
+  padding-left: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.my-jumbo-text{
+  align-self: center;
+  text-align: center;
+}
+
+.my-jumbo-text h1{
+  color: #925e78;
+  font-size: 3.5vw;
+  letter-spacing:5px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.dot-1{
+  color:#fec601;
+  
+}
+
+.dot-2{
+  color: #F05365;
+}
+
+.my-jumbo-text p{
+  margin-bottom: 10px;
+}
