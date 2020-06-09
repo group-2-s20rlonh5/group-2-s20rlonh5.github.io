@@ -1,25 +1,46 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
-
-.header {
-    position: fixed;
-    left: 0;
-    right: 0;
-    height: 66px;
-    
-    line-height: 66px;
-    color: #fff;
-    
-    background-color: $header-bg;
+nav{
+	height: 80px;
+	margin: 0;
   }
-  .header {
-    padding: 60px;
-    text-align: center;
-    background: #d8a9df;
-    color: white;
-    font-size: 30px;
+  .navbar-light 
+  .navbar-nav 
+  .nav-link.active{
+	color:#935F79;
+  }
+  .navbar-light 
+  .navbar-nav 
+  .nav-link{
+	color:#BD93BD;
+  }
+  .navbar-light 
+  .navbar-nav 
+  .active >.nav-link{
+	color: #935F79;
+  }
+  .navbar-light .navbar-nav .nav-link:hover{
+	color:#935F79;
+  }
+  .navbar-light .navbar-nav .nav-link:focus{
+	color: #935F79;
+  }
+  .navbar-expand-lg 
+  .navbar-nav 
+  .nav-link{
+	padding: 20px;
   }
 
-* {
+  iframe {
+	align-items: center;
+	}
+	
+
+	iframe {
+		margin-left: auto;
+		margin-right: auto;
+	}
+  
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+{
 	margin:0;
 	padding:0;
 	box-sizing:border-box;
@@ -57,7 +78,7 @@
 }
 
 #contact h3 {
-	color: rgb(255, 80, 203);
+	color:#BD93BD (255, 80, 203);
 	display: block;
 	font-size: 30px;
     font-weight: 400;
@@ -104,7 +125,7 @@ fieldset {
 	cursor:pointer;
 	width:100%;
 	border:none;
-	background:rgb(139, 28, 139);
+	background: #925E78 (139, 28, 139);
 	color:#FFF;
 	margin:0 0 5px;
 	padding:10px;
@@ -112,7 +133,7 @@ fieldset {
 }
 
 #contact button[type="submit"]:hover {
-	background:rgb(124, 48, 124);
+	background: #925E78(124, 48, 124);
 	-webkit-transition:background 0.3s ease-in-out;
 	-moz-transition:background 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;
@@ -137,13 +158,16 @@ fieldset {
  color:#888;
 }
 
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  padding:20px;
-  background-color:#d8a9df;
-  color: white;
-  text-align: center;
-}
+footer{
+	padding:10px;
+	background-color: #F2EDEB;
+  }
+  footer img{
+	width: 80px;
+  }
+  footer p{
+	color: #b3aeb5;
+	font-size:12px;
+	margin: 0;
+	padding:5px;
+  }
