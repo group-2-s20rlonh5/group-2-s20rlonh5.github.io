@@ -169,8 +169,12 @@ a {
 }
 
 a:hover {
-  color: #f05365;
+  color: #925e78;
   text-decoration: underline;
+}
+
+.nav-link.active{
+  color:#935F79;
 }
 
 a:not([href]) {
@@ -10192,6 +10196,12 @@ a.text-dark:hover, a.text-dark:focus {
 .responsive {
   width: 100%;
   height: auto;
+}
+
+.logo {
+  width: 940px;
+  height: 55px;
+padding-right: 700px;
 }
 
 @media print {
