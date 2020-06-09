@@ -1,4 +1,22 @@
-<<<<<<< HEAD
+
+body {
+    font-family: 'Lucida Grande';
+    color: #925e78;
+    margin: 0px;
+    padding: 0px;
+}
+
+img.resize {
+	max-width:50%;
+	max-height:50%;
+  }
+  .flex-container {
+    display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-left:50px;
+	margin-right:80px
+  }
 nav{
 	height: 80px;
 	margin: 0;
@@ -29,43 +47,12 @@ nav{
   .nav-link{
 	padding: 20px;
   }
+.contact-image {display: flex;
+	justify-content: flex-start;
+}
 
-  iframe {
-	align-items: center;
-	}
-	
-
-	iframe {
-		margin-left: auto;
-		margin-right: auto;
-	}
-  
   @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
 {
-=======
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
-
-.header {
-    position: fixed;
-    left: 0;
-    right: 0;
-    height: 66px;
-    
-    line-height: 66px;
-    color: #fff;
-    
-    background-color: $header-bg;
-  }
-  .header {
-    padding: 60px;
-    text-align: center;
-    background: #d8a9df;
-    color: white;
-    font-size: 30px;
-  }
-
-* {
->>>>>>> cab5c3da8e3e9c0548c2ef831740a66b916ef774
 	margin:0;
 	padding:0;
 	box-sizing:border-box;
@@ -103,11 +90,8 @@ nav{
 }
 
 #contact h3 {
-<<<<<<< HEAD
 	color:#BD93BD (255, 80, 203);
-=======
 	color: rgb(255, 80, 203);
->>>>>>> cab5c3da8e3e9c0548c2ef831740a66b916ef774
 	display: block;
 	font-size: 30px;
     font-weight: 400;
@@ -154,23 +138,15 @@ fieldset {
 	cursor:pointer;
 	width:100%;
 	border:none;
-<<<<<<< HEAD
 	background: #925E78 (139, 28, 139);
-=======
-	background:rgb(139, 28, 139);
->>>>>>> cab5c3da8e3e9c0548c2ef831740a66b916ef774
-	color:#FFF;
+	color: #925e78;
 	margin:0 0 5px;
 	padding:10px;
 	font-size:15px;
 }
 
 #contact button[type="submit"]:hover {
-<<<<<<< HEAD
 	background: #925E78(124, 48, 124);
-=======
-	background:rgb(124, 48, 124);
->>>>>>> cab5c3da8e3e9c0548c2ef831740a66b916ef774
 	-webkit-transition:background 0.3s ease-in-out;
 	-moz-transition:background 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;
@@ -195,7 +171,6 @@ fieldset {
  color:#888;
 }
 
-<<<<<<< HEAD
 footer{
 	padding:10px;
 	background-color: #F2EDEB;
@@ -209,15 +184,3 @@ footer{
 	margin: 0;
 	padding:5px;
   }
-=======
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  padding:20px;
-  background-color:#d8a9df;
-  color: white;
-  text-align: center;
-}
->>>>>>> cab5c3da8e3e9c0548c2ef831740a66b916ef774
