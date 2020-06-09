@@ -13,6 +13,7 @@ body,html{
   padding-top:60px;
   padding-bottom:30px;
   color:#5f5d60;
+  font-size:3vw
 }
 
 /* nav */
@@ -64,14 +65,6 @@ nav li a{
   background-color: #F2EDEB !important;
 } */
 
-/* main */
-main{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  
-}
 
 /* intro */
 .intro{
@@ -80,7 +73,7 @@ main{
 
 .intro p{
   margin-bottom:50px;
-  font-size: 20px; 
+  font-size: 2vw; 
 } 
 
 .my-button{
@@ -108,7 +101,7 @@ main{
 
 /* random */
 .random img{
-  width: 680px;
+  width: 40vw;
 }
 
 .random{
@@ -120,7 +113,7 @@ main{
   font-family: 'Amatic SC', cursive;
   margin-top: 10px;
   margin-bottom: 20px;
-  
+  font-size: 3vw;
 }
 
 
