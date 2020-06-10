@@ -2,15 +2,12 @@
 
 body {
     font-family: 'Lucida Grande';
-    color: #494847;
+    color: #935F79;
     margin: 0px;
     padding: 0px;
 }
-h1 {
-    padding: 10px;
-}
-h2 {
-    padding: 10px;
+h1{
+  font-weight: bold;
 }
 
   /* navbar */
@@ -87,6 +84,15 @@ nav{
     width: 500px;
     margin: 0px;
 }
+form {
+  width: 300px;
+}
+.dot-1 {
+  color:#FBD248;
+}
+.dot-2 {
+  color: #F05365;
+}
 
 
   /* Resources */
@@ -102,6 +108,7 @@ nav{
     display: flex;
     justify-content: flex-end;
 }
+
 
   /* Activity Generator */
 
@@ -146,6 +153,13 @@ footer {
     background-color: #AF3946;
     border-color: #AF3946;
   }
+
+  .btn-secondary {
+    color: #f05365;
+    background-color: white;
+    border-color: #F05365;
+  }
+
 
 .container {
     display: flex;

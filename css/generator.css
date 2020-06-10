@@ -3,9 +3,9 @@
 
 body{
   font-family: 'Lucida Grande';
-    min-height: 100vh;
-    padding-bottom: 135px;
-    position: relative;
+  min-height: 100vh;
+  padding-bottom: 135px;
+  position: relative;
 }
 
 h1,h3,p{
@@ -73,6 +73,7 @@ main{
 
 }
 
+
 .my-button:active{
   top: 7px;
   box-shadow: none;
@@ -108,3 +109,13 @@ footer p{
   padding:5px;
 }
 
+footer a{
+  text-decoration: underline;
+  opacity: 0.7;
+  transition: all 0.5s;
+}
+
+footer a:hover{
+  color: #5f5d60;
+  opacity: 1;
+}
