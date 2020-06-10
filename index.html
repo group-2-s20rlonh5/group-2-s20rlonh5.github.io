@@ -1,92 +1,110 @@
 <!DOCTYPE html>
-    <html>
+  <html>
 
-        <head>
-            <title>RSource Home</title>
-            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-            <link rel="stylesheet" href="./css/main.css">
-        </head>
+<!-- Head -->
 
-        <body>
+    <head>
+      <title>RSource Home</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="./css/main.css">
+    </head>
 
-            <div>
-              <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#"><img src="/images/Logo.png" width="200px" alt="logo"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                  <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="./Resources.html">Resources</a>
-                    <a class="nav-item nav-link" href="./generator.html">Activity Generator</a>
-                    <a class="nav-item nav-link" href="./contact.html">Contact Us</a> 
-                  </div>
-                </div>
-              </nav>
+    <body>
+
+<!-- Navbar -->
+
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><img src="images/Logo.png" width="200px" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="./Resources.html">Resources</a>
+        <a class="nav-item nav-link" href="./generator.html">Activity Generator</a>
+        <a class="nav-item nav-link" href="./contact.html">Contact Us</a> 
+    </nav>
+    </div>
+
+    <center>
+
+<!-- Jumbotron -->
+    
+  <header>
+    <div class="header-box">
+      <a><img src="images/undraw_creativity_wqmm red.svg" width="450px" alt="artist illustration"></a>
+      <h1>Stay creative during covid-19</h1>
+      <div class="header-para">
+      <p>Welcome to RSource, the home of creativity in lockdown.</p>
+      <form>
+      <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </header>
+
+<!-- Resources block -->
+
+    <div class="latest-resources">
+      <h2>Latest resources</h2>
+      <div class="container">
+      <div class="card">
+      <img src="images/Screenshot 2020-06-06 at 18.57.36.png" class="card-img-top" alt="resource1">
+      <div class="card-body">
+        <p class="card-text">Code First Girls is a programme created to help support young women looking for a career in tech. Check out their site for both free and paid courses and to learn more about their events.</p>
+        <a href="https://www.codefirstgirls.org.uk/" class="btn btn-primary">Take me to their site!</a>
+      </div>
+      </div>
+      <div class="card">
+      <img src="images/Screenshot 2020-06-06 at 22.07.47.png" class="card-img-top" alt="resource2">
+      <div class="card-body">
+        <p class="card-text">For all of our vegan friends, the Minimalist Baker has an amazing collection of plant-based recipes, both savoury and sweet!</p>
+        <a href="https://minimalistbaker.com/" class="btn btn-primary">Take me to their site!</a>
+      </div>
+      </div>
+      <div class="card">
+      <img src="images/Screenshot 2020-06-06 at 19.35.03.png" class="card-img-top" alt="resource3">
+      <div class="card-body">
+        <p class="card-text">It’s time to go all-in by working out with NTC live in your living room. On the Nike Training App you can find workouts, nutrition advice and expert help.</p>
+        <a href="https://www.nike.com/gb/ntc-app" class="btn btn-primary">Take me to their site!</a>
+      </div>
+      </div>
+    </div>
+      <div class="learn-more">
+        <p><button type="button" class="btn btn-primary">Learn more...</button></p>
+        </div>
+    </div>
 
 
-               
 
-        <center>
-        
-            <header>
-            <div class="header-box">
-                <h1>Stay creative during covid-19</h1>
-                    <div class="header-para">
-                        <p>Welcome to RSource, the home of creativity in lockdown.</p>
+<!-- Acitivity Generator Block -->
 
-                        <form>
-                          <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                          </div>
-                          <div>
-                          <button type="submit" class="btn btn-primary">Submit</button>
-                          </div>
-                        </form>
-            </div>
-        </header>
-
-            <div class="latest-resources">
-                <h2>Latest resources</h2>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-sm">
-                            <p><img src="images/Screenshot 2020-06-06 at 18.57.36.png" width="349px" height="200px" alt="resource1"></p>
-                        </div>
-                        <div class="col-sm">
-                            <p><img src="images/FL_logo_RGB-2.jpg" width="349px" height="200px" alt="resource2"></p>
-                        </div>
-                        <div class="col-sm">
-                            <p><img src="images/Screenshot 2020-06-06 at 19.29.15.png" width="349px" height="200px" alt="resource3"></p>
-                        </div>
-                      </div>
-                      <div class="learn-more">
-                        <p><a href="https://group-2-s20rlonh5.github.io/Resources.html">Learn more...</a></p>
-                    </div>
-                    </div>
-
-            </div>
-
-            <div class ="activity-generator">
-                <h2>None of the above sound interesting to you?</h2>
-                <h3>Try our activity generator!</h3>
-                <br>
-                <div>
-                <button type="button" class="btn btn-primary">Activity Generator</button>
-                </div>
-            </div>
+    <div class ="activity-generator">
+      <h2>None of the above sound interesting to you?</h2>
+      <h3>Try our activity generator!</h3>
+      <br>
+      <div>
+      <button type="button" class="btn btn-primary">Activity Generator</button>
+      </div>
+    </div>
             
-        </center>
+    </center>
 
-        <footer>
-          <img src="images/footer-logo.png" width="100px" alt="logo">
-          <p>Made with love by Group2 &copy; 2020 </p>
+<!-- Footer -->
+
+    <footer>
+      <img src="images/footer-logo.png" width="100px" alt="logo">
+      <p>Made with love by Group2 &copy; 2020 </p>
     </footer>
 
-        </body>
-    </html>
+    </body>
+  </html>
