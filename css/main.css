@@ -120,15 +120,6 @@ form {
 }
 
 
-  /* Footer */
-
-footer {
-    background-color: #F2EDEB;
-    padding: 20px;
-    margin: 0px;
-    border: 0px; 
-}
-
 
   /* Other */
 
@@ -169,4 +160,34 @@ footer {
 .card {
     margin: 15px;
     width: 300px;
+}
+
+/* footer */
+
+footer{
+  padding:10px;
+  background-color: #F2EDEB;
+}
+
+footer img{
+  width: 80px;
+}
+
+footer p{
+  color: #b3aeb5;
+  font-size:12px;
+  margin: 0;
+  padding:5px;
+}
+
+footer p a{
+  color: #5f5d60;
+  text-decoration: underline;
+  opacity: 0.7;
+  transition: all 0.5s;
+}
+
+footer a:hover{
+  color: #F05365;
+  opacity: 1;
 }
