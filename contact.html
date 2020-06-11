@@ -1,64 +1,62 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-        <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet'>
-        <title>Contact Page</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/contact.css">
- </head>
-<body> 
- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="index.html"><img src="images/Logo.png" width="200px" alt="logo"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="Resources.html">Resources</a>
-      <a class="nav-item nav-link" href="generator.html">Activity Generator</a>
-      <a class="nav-item nav-link active" href="contact.html">Contact Us</a>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet'>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/contact.css">
+  </head>
+  
+  <body> 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html"><img src="images/Logo.png" width="200px" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="Resources.html">Resources</a>
+        <a class="nav-item nav-link" href="generator.html">Activity Generator</a>
+        <a class="nav-item nav-link active" href="contact.html">Contact Us</a>
+      </div>
     </div>
+  </nav>
+  <div class="flex-container"> 
+    <img class=resize src='images/Contact image.png'  alt="contact pic" >  
+    <form id="contact" action="" method="post">
+    <h3>Quick Contact</h3>    
+    <h4>Contact us today, responses given within 24 hours!</h4>
+    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset> 
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form> 
   </div>
-</nav>
-<div class="flex-container"> 
-<img class=resize src='images/Contact image.png'  alt="contact pic" >
-                
-                  <form id="contact" action="" method="post">
-                  <h3>Quick Contact</h3>    
-                  <h4>Contact us today, responses given within 24 hours!</h4>
-                  <fieldset>
-                    <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-                  </fieldset>
-                  <fieldset>
-                    <input placeholder="Your Email Address" type="email" tabindex="2" required>
-                  </fieldset>
-                  <fieldset>
-                    <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
-                  </fieldset>
-                  <fieldset>
-                    <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
-                  </fieldset>
-                  <fieldset>
-                    <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
-                  </fieldset>
-                  <fieldset> 
-                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-                  </fieldset>
-                </form> 
-                </div>
-                
+                               
+  <footer>
+    <a href="https://group-2-s20rlonh5.github.io">
+    <img src="images/footer-logo.png" alt="logo"></a>
+    <p>Made with &#10084; by <a href="https://www.instagram.com/rainilyahead/" target="_blank">Helia</a>, <a href="https://www.instagram.com/francescacx_/">Francesca</a>, <a href="https://www.instagram.com/clementine.lark/" target="_blank">Shuyan</a> and <a href="#">Erica</a> &copy; 2020 London </p>
+  </footer>
 
-               <div> 
-              <footer>
-                <a href="https://group-2-s20rlonh5.github.io">
-                <img src="images/footer-logo.png" alt="logo"></a>
-                <p>Made with &#10084; by <a href="https://www.instagram.com/rainilyahead/" target="_blank">Helia</a>, <a href="https://www.instagram.com/francescacx_/">Francesca</a>, <a href="https://www.instagram.com/clementine.lark/" target="_blank">Shuyan</a> and <a href="#">Erica</a> &copy; 2020 London </p>
-          </footer>
-        </div> 
-        </body>
-        </html>
+</body>
+</html>
