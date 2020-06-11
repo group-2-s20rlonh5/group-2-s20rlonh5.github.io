@@ -2,7 +2,7 @@
   padding-top: 3rem;
   padding-bottom: 3rem;
   margin-bottom: 0;
-  background-color: #BD93BD;
+  
 }
 @media (min-width: 768px) {
   .jumbotron {
@@ -23,30 +23,87 @@
   max-width: 40rem;
 }
 
-body,html{
+
+
+body{
   font-family: "Lucida Grande"; 
   margin: 0;
   padding: 0;
-  font-weight: 300
+  font-weight: 300;
+}
+
+
+/* navbar */
+nav{
+  background-color: white !important;
+}
+
+
+.navbar-light 
+  .navbar-nav 
+  .nav-link.active{
+    color:#935F79;
+  }
+  .navbar-light 
+  .navbar-nav 
+  .nav-link{
+    color:#BD93BD;
+  } 
+  .navbar-light 
+  .navbar-nav 
+  .active >.nav-link{
+    color: #935F79;
+  }
+  .navbar-light .navbar-nav .nav-link:hover{
+    color:#935F79;
+  }
+  .navbar-light .navbar-nav .nav-link:focus{
+    color: #935F79;
+  }
+  .navbar-expand-lg 
+  .navbar-nav 
+  .nav-link{
+    padding: 20px;
+  }
+
+  .my-jumbo{ 
+    background-color: #F2edeb;
+    padding: 60px 45px 15px 45px;
+  }
   
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
-
-/* footer */
-footer{
-  padding:10px;
-  background-color: #F2EDEB;
-}
-footer img{
-  width: 120px;
-}
-footer p{
-  color: #b3aeb5;
-  font-size:12px;
-  margin: 0;
-  padding:5px;
-}
+  .my-jumbo img{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .my-jumbo-text{
+    align-self: center;
+    text-align: center;
+  }
+  
+  .my-jumbo-text h1{
+    color: #925e78;
+    font-size: 3.5vw;
+    letter-spacing:5px;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+  
+  .dot-1{
+    color:#fec601;
+    
+  }
+  
+  .dot-2{
+    color: #F05365;
+  }
+  
+  .my-jumbo-text p{
+    margin-bottom: 10px;
+    color: #925e78;
+  }
+  
 
 .btn-primary {
   color: #f2edeb;
@@ -130,45 +187,11 @@ footer p{
   color: #925e78;
 }
 
-nav{
-  margin: 0;
-  background-color: #f2edeb;
-}
-
-.nav {
-color: #f2edeb;
-}
-
-.navbar-light 
-.navbar-nav 
-.nav-link.active{
-  color:#935F79;
-}
-.navbar-light 
-.navbar-nav 
-.nav-link{
-  color:#BD93BD;
-}
-.navbar-light 
-.navbar-nav 
-.active >.nav-link{
-  color: #935F79;
-}
-.navbar-light .navbar-nav .nav-link:hover{
-  color:#935F79;
-}
-.navbar-light .navbar-nav .nav-link:focus{
-  color: #935F79;
-}
-.navbar-expand-lg 
-.navbar-nav 
-.nav-link{
-  padding: 20px;
-}
 
 .btn-outline-secondary {
 color: #f05365;
 border-color: #f05365;
+background-color: transparent;
 }
 
 .btn-outline-secondary:hover {
@@ -201,40 +224,34 @@ border-color: #f05365;
   box-shadow: 0 0 0 0.2rem #af3946 (130, 138, 145, 0.5);
 }
 
-.my-jumbo{ 
-  background-color: #F2edeb;
-  padding: 60px 45px 15px 45px;
+
+
+/* footer */
+
+footer{
+  padding:10px;
+  background-color: #F2EDEB;
 }
 
-.my-jumbo img{
-  padding-left: 30px;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
+footer img{
+  width: 80px;
 }
 
-.my-jumbo-text{
-  align-self: center;
-  text-align: center;
+footer p{
+  color: #b3aeb5;
+  font-size:12px;
+  margin: 0;
+  padding:5px;
 }
 
-.my-jumbo-text h1{
-  color: #925e78;
-  font-size: 3.5vw;
-  letter-spacing:5px;
-  font-weight: bold;
-  margin-bottom: 25px;
+footer p a{
+  color: #5f5d60 !important;
+  text-decoration: underline;
+  opacity: 0.7;
+  transition: all 0.5s;
 }
 
-.dot-1{
-  color:#fec601;
-  
-}
-
-.dot-2{
-  color: #F05365;
-}
-
-.my-jumbo-text p{
-  margin-bottom: 10px;
-  color: #925e78;
+footer a:hover{
+  color: #F05365 !important;
+  opacity: 1;
 }
