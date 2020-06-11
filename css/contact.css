@@ -1,7 +1,7 @@
 
 body {
     font-family: 'Lucida Grande';
-    color: #925e78;
+    color: #5f5d60;
     margin: 0px;
     padding: 0px;
 }
@@ -155,6 +155,12 @@ fieldset {
 	outline:0;
 	border:1px solid #999;
 }
+
+button{
+	background-color: #F05365;
+	border-radius: 4px;
+}
+
 ::-webkit-input-placeholder {
  color:#888;
 }
