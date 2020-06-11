@@ -48,6 +48,19 @@ footer p{
   padding:5px;
 }
 
+footer a{
+  text-decoration: underline;
+  color: #5f5d60;
+  opacity: 0.7;
+  transition: all 0.5s;
+}
+
+footer a:hover{
+  color: #5f5d60;
+  opacity: 1;
+}
+
+
 .btn-primary {
   color: #f2edeb;
   background-color: #f05365;
