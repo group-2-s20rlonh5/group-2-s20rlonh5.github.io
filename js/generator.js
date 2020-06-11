@@ -37,4 +37,6 @@ function getRandomActivity () {
   const activity = activities[Math.floor(Math.random()* activities.length)]
 
   document.getElementById("random").innerHTML = '<img src="'+ activity.img + '">' + '<h3> Let\'s ' + activity.text + '</h3>'; 
+
+  document.getElementById('my-button').innerHTML = 'Play again'
 }
