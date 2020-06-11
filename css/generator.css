@@ -109,7 +109,7 @@ footer p{
   padding:5px;
 }
 
-footer a{
+footer p a{
   text-decoration: underline;
   opacity: 0.7;
   transition: all 0.5s;
