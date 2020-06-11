@@ -1,26 +1,12 @@
 
 body {
     font-family: 'Lucida Grande';
-    color: #925e78;
+    color: #5f5d60;
     margin: 0px;
-    padding: 0px;
+		padding: 0px;
 }
+	
 
-img.resize {
-	max-width:50%;
-	max-height:50%;
-  }
-  .flex-container {
-    display: flex;
-	justify-content: space-around;
-	align-items: center;
-	margin-left:20px;
-	margin-right:90px
-  }
-nav{
-	height: 80px;
-	margin: 0;
-  }
   .navbar-light 
   .navbar-nav 
   .nav-link.active{
@@ -47,9 +33,30 @@ nav{
   .nav-link{
 	padding: 20px;
   }
-.contact-image {display: flex;
-	justify-content: flex-start;
-}
+
+.flex-container {
+  display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-left:20px;
+	margin-right:90px;
+	flex-wrap: wrap;
+
+	}
+
+	.resize {
+		width: 450px;
+		padding: 30px;
+	}
+
+	form{
+		box-shadow:0 2px 10px rgba(0,0,0,0.04)
+	}
+
+	form:hover{
+		box-shadow:0 3px 20px rgba(0,0,0,0.09) ;
+	}
+
 
   @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
 {
@@ -84,7 +91,6 @@ nav{
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
 #contact {
-	background:#F9F9F9;
 	padding:25px;
 	margin:50px 0;
 }
@@ -95,7 +101,7 @@ nav{
 	display: block;
 	font-size: 30px;
     font-weight: 400;
-    text-align:center
+    text-align:center;
 }
 
 #contact h4 {
@@ -158,6 +164,12 @@ fieldset {
 	outline:0;
 	border:1px solid #999;
 }
+
+button{
+	background-color: #F05365;
+	border-radius: 4px;
+}
+
 ::-webkit-input-placeholder {
  color:#888;
 }
@@ -197,6 +209,6 @@ footer p a{
 }
 
 footer a:hover{
-  color: #F05365;
+  color: #5f5d60;
   opacity: 1;
 }
