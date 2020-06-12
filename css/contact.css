@@ -190,6 +190,14 @@ button{
  color:#888;
 }
 
+#thanks-msg {
+  opacity: 0;
+  margin: 0;
+  line-height: 1rem;
+  transition: all 0.3s;
+}
+
+
 /* footer */
 
 footer{
