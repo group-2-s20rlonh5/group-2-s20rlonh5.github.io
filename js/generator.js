@@ -1,7 +1,7 @@
 
+let currentActivity; // remember which activity is on screen, for later comparison
+
 function getRandomActivity () {
-  
-  console.log('hello world');
 
   const activities = [
     {
@@ -34,9 +34,20 @@ function getRandomActivity () {
     }
   ];
 
-  const activity = activities[Math.floor(Math.random()* activities.length)]
+  // Always get a different random activity
 
-  document.getElementById("random").innerHTML = '<img src="'+ activity.img + '">' + '<h3> Let\'s ' + activity.text + '</h3>'; 
+let newActivity = Math.floor(Math.random()* activities.length);
 
-  document.getElementById('my-button').innerHTML = 'Play again'
+while (newActivity === currentActivity) {
+
+newActivity = Math.floor(Math.random() * activities.length);
+
+}
+
+currentActivity = newActivity;
+
+const activity = activities[currentActivity];
+
+document.getElementById("random").innerHTML = '<img src="'+ activity.img + '">' + '<h3> Let\'s ' + activity.text + '</h3>';
+
 }
