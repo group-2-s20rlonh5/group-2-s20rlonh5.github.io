@@ -34,7 +34,7 @@ body {
 	padding: 20px;
   }
 
-.flex-container {
+/* .flex-container {
   display: flex;
 	justify-content: space-evenly;
 	align-items: center;
@@ -42,15 +42,22 @@ body {
 	margin-right:90px;
 	flex-wrap: wrap;
 
+	} */
+
+	main{
+		padding: 30px ;
 	}
 
+	
+
 	.resize {
-		width: 450px;
-		padding: 30px;
+		padding: 50px;
+		padding-bottom: 0;
 	}
 
 	form{
-		box-shadow:0 2px 10px rgba(0,0,0,0.04)
+		box-shadow:0 2px 10px rgba(0,0,0,0.04);
+		
 	}
 
 	form:hover{
@@ -81,18 +88,18 @@ body {
 	background:#0CF;
 }
 
-.container {
+/* .container {
 	max-width:400px;
 	width:100%;
 	margin:0 auto;
 	position:relative;
-}
+} */
 
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
 #contact {
 	padding:25px;
-	margin:50px 0;
+	margin:0;
 }
 
 #contact h3 {
