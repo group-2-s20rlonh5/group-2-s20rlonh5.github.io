@@ -1,7 +1,7 @@
 
-let currentActivity; // remember which activity is on screen, for later comparison
+let currentActivityIndex;
 
-function getRandomActivity () {
+async function getRandomActivity () {
 
   const activities = [
     {
@@ -34,20 +34,30 @@ function getRandomActivity () {
     }
   ];
 
-  // Always get a different random activity
+  let count = 0;
+  let activity;
+  document.getElementById("randomText").innerHTML = ""
 
-let newActivity = Math.floor(Math.random()* activities.length);
+  // flash randomly through activities
+  while (count < activities.length) {
+    let randomIndex = Math.floor(Math.random()* activities.length);
 
-while (newActivity === currentActivity) {
+    if (randomIndex === currentActivityIndex)
+      continue; // go to next iteration, ignore this duplicate
 
-newActivity = Math.floor(Math.random() * activities.length);
+    activity = activities[randomIndex]
+    currentActivityIndex = randomIndex;
 
-}
+    document.getElementById("randomImage").src = activity.img;
+    
+    // add delay before changing next image in while loop 
+    count++;
+    if (count < 4)
+      await new Promise(r => setTimeout(r, 200)); // wait 200ms
+  }
 
-currentActivity = newActivity;
+  document.getElementById("randomText").innerHTML = "Let's" + activity.text;
 
-const activity = activities[currentActivity];
-
-document.getElementById("random").innerHTML = '<img src="'+ activity.img + '">' + '<h3> Let\'s ' + activity.text + '</h3>';
+  document.getElementById('my-button').innerHTML = 'Play again'
 
 }
