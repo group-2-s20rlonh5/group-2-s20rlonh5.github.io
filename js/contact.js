@@ -1,5 +1,5 @@
-contactForm = document.getElementById("contact");
-thanksMessage = document.getElementById("thanks-msg");
+const contactForm = document.getElementById("contact");
+const thanksMessage = document.getElementById("thanks-msg");
 
 contactForm.addEventListener("submit", function(event) {
   event.preventDefault();
