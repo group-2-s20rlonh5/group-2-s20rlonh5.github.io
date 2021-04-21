@@ -6,7 +6,7 @@ Code First Girls Web development Course group project - a resource collection si
 
 
 ## 💻Techstack
-[![HTML Badge](https://img.shields.io/badge/-HTML5-orange?style=for-the-badge&labelColor=white&logo=HTML5&logoColor=orange)](#) [![CSS Badge](https://img.shields.io/badge/-CSS3-blue?style=for-the-badge&labelColor=white&logo=CSS3&logoColor=blue)](#) [![Javascript Badge](https://img.shields.io/badge/-Javascript-yellow?style=for-the-badge&labelColor=white&logo=javascript&logoColor=yellow)](#) [![Javascript Badge](https://img.shields.io/badge/-Bootstrap-purple?style=for-the-badge&labelColor=white&logo=Bootstrap&logoColor=purple)](#) 
+<img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap%20-%23593d88.svg?&style=for-the-badge&logo=Bootstrap&logoColor=white"/>
 
 
 
